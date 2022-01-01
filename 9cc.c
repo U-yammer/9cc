@@ -17,6 +17,7 @@ int main(int argc, char **argv) {
     printf(".global main\n");
     printf("main:\n");
     printf("  mov rax, %ld\n", strtol(p, &p, 10));
+    // happy new year
 
     while (*p) {
         if (*p == '+') {
